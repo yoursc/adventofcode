@@ -1,3 +1,9 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+"""
+@Author : Ven
+@Date   : 2020/1/15
+"""
 import numpy
 
 
@@ -5,7 +11,7 @@ class Part:
 
     def __init__(self):
         self.light_map = numpy.zeros((1000, 1000))
-        self.file_path = "input.txt"
+        self.file_path = "2015-06.data"
 
     def deal_cmd(self, cmd: str):
         cmd_s1 = cmd.split(" ")

@@ -1,4 +1,10 @@
-file_path = "input.txt"
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+"""
+@Author : Ven
+@Date   : 2020/1/15
+"""
+file_path = "2015-05.data"
 
 
 def check_a(line: str):

@@ -1,3 +1,9 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+"""
+@Author : Ven
+@Date   : 2020/1/15
+"""
 import hashlib
 
 str = "ckczppom"

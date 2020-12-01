@@ -1,12 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 """
-@Version    : 0.0.1
-@File       : part_2.py
-@CreateTime : 2020/12/1 18:56
-@Author     : Ven
-@Maintainer : Ven
-@Software   : PyCharm
+@Author : Ven
+@Date   : 2020/12/1
 """
 with open("2015-01.data") as f:
     data = f.read()

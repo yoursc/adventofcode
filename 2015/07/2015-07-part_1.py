@@ -1,5 +1,9 @@
-import re
-import time
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+"""
+@Author : Ven
+@Date   : 2020/1/19
+"""
 
 cmd_dic = {}
 num_dic = {}
@@ -78,7 +82,7 @@ def get_value(key: str):
         return result
 
 
-with open("input.txt", 'r', encoding='utf8') as file:
+with open("2015-07.data", 'r', encoding='utf8') as file:
     file_str = file.read()
 cmd_list = file_str.split("\n")
 for command in cmd_list:
